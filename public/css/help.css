@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ nav .logo{
+    width: 80px;
+ }
+ 
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+ }
+ 
+ header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+ }
+
+.help{
+    width: 100%;
+    padding: 183px 0px;
+    background-color: #191919;
+}
+
+.help-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.help-text h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.help-text h6{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;   
+}
+
+span{
+    color: #f9004d;
+}
+
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+footer{
+    background: #13131a;
+    min-height: fit-content;
+    width: 100vw;
+    font-family: "Open sans";
+    color: #fff;
+} 
+
+.footer-bottem{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottem p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottem span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
