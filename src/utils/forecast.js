@@ -2,7 +2,7 @@ const request = require('postman-request')
 const geocode = require('./geocode')
 
 const forecast = (latitude, longitude, callback) => {
-    const url = 'http://api.weatherstack.com/current?access_key=e84129bc20b99e3b1452c36379b4e3ff&query='+ latitude +','+ longitude +'&units=m'
+    const url = 'http://api.weatherstack.com/current?access_key=5ece5380b0b855ae565999d4f8bcad7a&query='+ latitude +','+ longitude +'&units=m'
 
     request({ url, json: true }, (error, {body}) => {
         if (error) {
